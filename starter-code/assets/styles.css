@@ -43,6 +43,9 @@ html, body{
   width: 36.85%;
   height: 16.04vh;
 }
+.tablet_img{
+  display: none;
+}
 
 .main_header, h2{
   font-family: 'Red Hat Display', sans-serif;
@@ -91,6 +94,9 @@ button{
   background-color: var(--what_is_it_btn);
   padding: 0.875em 1.72em;
   margin-left: 1em;
+}
+.what_is_it:hover{
+  background-color: var(--hover_btn_footer);
 }
 
 .line_div{
@@ -236,4 +242,56 @@ footer{
 }
 button{
   border: none;
+}
+
+@media (max-width: 1328px) {
+  html, body{
+    height: 2128px;
+  }
+  .header_wrapper{
+    flex-direction: column;
+  }
+  .left_img, .right_img{
+    display: none;
+  }
+  .tablet_img{
+    display: block;
+  }                                       /*height: 2128px;*/
+  .top_section{
+    width: 467px;
+    height: 262px;
+    margin: 3.4vh auto 3.76vh auto;
+  }
+  .img_div{
+    width: 689px;
+    height: 156px;
+    margin: 0 auto;
+  }
+  .images{
+    width: 164px;
+    height: 156px;
+    margin: 0 auto;
+  }
+  .main_txt{
+    width: 74.61%;
+  }
+  .footer{
+    background-image: url(tablet/image-footer.jpg);
+    height:428px;
+  }
+  .footer_container{
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between; 
+  }
+  .footer_header{
+    padding-top: 64px;
+    padding-bottom: 32px;
+  }
+  .footer_p{
+    margin-bottom: -50px;
+  }
+  .footer_download_btn{
+    margin-bottom: 66px;
+  }
 }
