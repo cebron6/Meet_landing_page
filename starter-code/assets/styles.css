@@ -5,6 +5,8 @@
   --what_is_it_btn:#855FB1;
   --header_clr:#28283D;
   --p_txt:#87879D;
+  --hover_btn_header_dwnld:rgba(143,227,249);
+  --hover_btn_footer:#D988ff;
   
 }
 
@@ -75,10 +77,14 @@ button{
   background-color: var(--footer_clr);
   padding: 0.875em 2.44em;
 }
+.download_btn:hover{
+  background-color: var(--hover_btn_header_dwnld);
+}
 .header_span{
   color: rgba(143, 227, 249, 1);
-
-
+}
+.header_span:hover{
+  color: rgba(147, 227, 249, 1);
 }
 
 .what_is_it{
@@ -103,7 +109,6 @@ button{
   font-size: 16px;
   line-height: 16px;
   border: 1px solid var(--p_txt);
-  opacity: 0.25;
   border-radius: 50px; 
   text-align: center;
   color: var(--p_txt);
@@ -220,6 +225,9 @@ footer{
   background-color: var(--what_is_it_btn);
   opacity: 1;
   padding: 0.875em 2.44em;
+}
+.footer_download_btn:hover{
+  background-color: var(--hover_btn_footer);
 }
 .span_footer{
   color:rgba(217, 184, 255, 1);
