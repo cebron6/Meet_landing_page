@@ -143,7 +143,7 @@ button{
   justify-content: center;
   align-items: center;
   width: 37.5%;
-  margin: 80px auto 72px auto;     /*FIX ME BY DIVIDING BY 1895 */
+  margin: 80px auto 72px auto;     
 }
 
 .above_header_txt{
