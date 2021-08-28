@@ -185,7 +185,7 @@ button{
   z-index: 2;
 }
 footer{
-  background-image: url(desktop/image-footer.jpg);
+  background-image: url(/starter-code/assets/desktop/image-footer.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -282,7 +282,7 @@ button{
     width: 74.61%;
   }
   .footer{
-    background-image: url(tablet/image-footer.jpg);
+    background-image: url(starter-code/assets/tablet/image-footer.jpg);
     height:428px;
   }
   .footer_container{
