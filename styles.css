@@ -15,10 +15,15 @@
   margin: 0;
   box-sizing: border-box;
 } 
-                                    /*height=1895 width=1440 */
-html, body{
+
+html,body{
   height: 100vh;
   width: 100%;
+  
+}
+.main{
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .logo_div{
